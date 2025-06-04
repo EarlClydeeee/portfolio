@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>World of Earl Clyde</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Extenda Trial font placeholder - user should replace with actual font files if available */
+    @font-face {
+      font-family: 'Extenda Trial';
+      src: local('Extenda Trial'), local('ExtendaTrial'),
+           url('fonts/ExtendaTrial.woff2') format('woff2'),
+           url('fonts/ExtendaTrial.woff') format('woff');
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+    }
+    .extenda {
+      font-family: 'Extenda Trial', 'Arial Black', Arial, sans-serif;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+      line-height: 1;
+    }
+  </style>
+</head>
+  <body class="bg-white flex items-center justify-center min-h-screen overflow-hidden">
+    <div class="relative w-full overflow-x-hidden whitespace-nowrap">
+      <span class="absolute top-0 left-0 text-black uppercase font-extrabold text-3xl tracking-tight" style="transform: translateX(0) translateY(-3rem);">WORLD OF</span>
+      <h1 class="extenda text-black uppercase text-[18rem] leading-none tracking-tighter whitespace-nowrap">EARL CLYDE</h1>
+    </div>
+  </body>
+</html>
